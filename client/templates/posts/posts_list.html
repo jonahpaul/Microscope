@@ -1,0 +1,8 @@
+<template name="postsList">
+	<div class="posts page">
+	<!-- iterating over a posts object with block helper. For each iteration including a postItem -->
+		{{#each posts}}
+			{{> postItem}}
+		{{/each}}
+	</div>
+</template>
